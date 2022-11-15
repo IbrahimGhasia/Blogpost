@@ -1,0 +1,84 @@
+[
+	{
+		"type": "constructor",
+		"payable": false,
+		"inputs": [{ "type": "address", "name": "registry" }]
+	},
+	{
+		"type": "function",
+		"name": "createPost",
+		"constant": false,
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [
+			{ "type": "string", "name": "title" },
+			{ "type": "string", "name": "content" }
+		],
+		"outputs": []
+	},
+	{
+		"type": "function",
+		"name": "createUser",
+		"constant": false,
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [
+			{ "type": "string", "name": "username" },
+			{ "type": "string", "name": "bio" }
+		],
+		"outputs": []
+	},
+	{
+		"type": "function",
+		"name": "onERC721Received",
+		"constant": false,
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [
+			{ "type": "address" },
+			{ "type": "address" },
+			{ "type": "uint256" },
+			{ "type": "bytes" }
+		],
+		"outputs": [{ "type": "bytes4" }]
+	},
+	{
+		"type": "function",
+		"name": "owner",
+		"constant": true,
+		"stateMutability": "view",
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [],
+		"outputs": [{ "type": "address" }]
+	},
+	{
+		"type": "function",
+		"name": "postTableURI",
+		"constant": true,
+		"stateMutability": "view",
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [],
+		"outputs": [{ "type": "string" }]
+	},
+	{
+		"type": "function",
+		"name": "setTableURI",
+		"constant": false,
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [{ "type": "string", "name": "baseURI" }],
+		"outputs": []
+	},
+	{
+		"type": "function",
+		"name": "userTableURI",
+		"constant": true,
+		"stateMutability": "view",
+		"payable": false,
+		"gas": 7000000,
+		"inputs": [],
+		"outputs": [{ "type": "string" }]
+	}
+]

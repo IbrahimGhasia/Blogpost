@@ -9,8 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.7.2",
+    "@mantine/dropzone": "^5.7.2",
+    "@mantine/ds": "^5.7.2",
+    "@mantine/form": "^5.7.2",
+    "@mantine/hooks": "^5.7.2",
+    "@mantine/modals": "^5.7.2",
+    "@mantine/next": "^5.7.2",
+    "@mantine/notifications": "^5.7.2",
+    "@mantine/prism": "^5.7.2",
+    "@mantine/rte": "^5.7.2",
+    "@rainbow-me/rainbowkit": "^0.7.4",
+    "@tabler/icons": "^1.111.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
     "next": "13.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "wagmi": "^0.8.3"
   }
 }
