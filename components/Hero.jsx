@@ -18,7 +18,7 @@ const useStyles = createStyles((theme) => ({
 	},
 
 	container: {
-		height: 700,
+		height: 800,
 		display: 'flex',
 		flexDirection: 'column',
 		justifyContent: 'flex-end',

@@ -1,10 +1,17 @@
 # Blogpost
 
-Blogpost is a Decentralized Blogging Website. The website enables users to securely register themselves and write about their blogs. The data is stored on the blockchain using Tableland.
+-   <a href="https://www.youtube.com/watch?v=7nEw4tds7Tk&feature=youtu.be">Demo Video</a> <br>
+-   Working Demo can be seen <a href="https://blogpost-six.vercel.app/">here</a> <br>
 
-It is built on Polygon Mumbai. You can see the smart contract here.
+Author : <a href="https://github.com/IbrahimGhasia">Ibrahim Ghasia</a>
 
-### Working Demo can be seen here
+## Description
+
+---
+
+<b>Blogpost</b> is a Decentralized Blogging Website. The website enables users to securely register themselves and write about their blogs. The data is stored on the blockchain using Tableland.
+
+It is built on Polygon Mumbai Testnet. Our smart contract is deployed and verified on polygon mumbai. Here is the link. https://mumbai.polygonscan.com/address/0x1650b5015BAd4d4b46950e14f4c2b06843CeeEFB
 
 ---
 

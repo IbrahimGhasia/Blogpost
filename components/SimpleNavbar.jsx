@@ -126,7 +126,7 @@ export function SimpleNavbar() {
 
 	return (
 		<Navbar
-			height={622}
+			height={700}
 			width={{ sm: 300 }}
 			p='md'
 			className={classes.navbar}
